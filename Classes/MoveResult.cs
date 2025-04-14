@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class MoveResult 
+public class MoveResult
 {
-    public bool success; 
-    public int row; 
+    public bool success;
+    public int row;
     public int column;
-    public string color; // The color of the checker that was placed
+    public string color;
 
     public MoveResult()
     {
@@ -22,5 +22,8 @@ public class MoveResult
         this.column = column;
         this.color = color;
     }
+
+
 }
+
 
